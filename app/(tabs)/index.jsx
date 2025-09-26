@@ -16,7 +16,7 @@ export default function App() {
       <CartaoPerfil 
         nome="Ana Maria"
         profissao="Engenheira de Software"
-        urlFoto="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+        urlFoto="https://static.wikia.nocookie.net/dublagempedia/images/0/0b/Superman-PNG-HD.png/revision/latest/scale-to-width-down/360?cb=20171210194608&path-prefix=pt-br"
       />
       <CartaoPerfil 
         nome="Carlos Souza"
