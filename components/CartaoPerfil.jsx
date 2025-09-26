@@ -1,17 +1,15 @@
-import { View, Text, Image, StyleSheet } from 'react-native';
- 
-export default function App() {
-  return (
-      <View>
-        <Image 
-          source={{ uri: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg' }}
-          style={{ width: 100, height: 100 }}
-        />
-        <Text>gustavo</Text>
-        <Text>aluno</Text>
-      </View>
-  );
-} 
+import { Image, StyleSheet, Text, View } from 'react-native';
+
+  export default function CartaoPerfil({nome, profissao, urlFoto}){
+      return(
+        <View style={styles.cartao}>
+          <Image style={styles.imagem}
+            source={{uri: urlFoto}}/>
+          <Text style={styles.nome}>Nome: {nome}</Text>
+          <Text style={styles.profissao}>Profisão: {profissao}</Text>
+        </View>
+      );
+  }
 
 const styles = StyleSheet.create({
   cartao: {
