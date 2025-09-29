@@ -1,6 +1,7 @@
 import { StyleSheet, View } from 'react-native';
 import BotaoCustomizado from '../../components/BotaoCustomizado';
 import CartaoPerfil from '../../components/CartaoPerfil';
+import FormularioInterativo from '../../components/FormularioInterativo';
 
  const styles = StyleSheet.create({
   container: {
@@ -13,7 +14,7 @@ import CartaoPerfil from '../../components/CartaoPerfil';
 export default function App() {
   return (
     <View style={styles.container}>
-      <CartaoPerfil 
+{/* {      <CartaoPerfil 
         nome="Ana Maria"
         profissao="Engenheira de Software"
         urlFoto="https://static.wikia.nocookie.net/dublagempedia/images/0/0b/Superman-PNG-HD.png/revision/latest/scale-to-width-down/360?cb=20171210194608&path-prefix=pt-br"
@@ -23,7 +24,10 @@ export default function App() {
         profissao="Designer de Produto"
         urlFoto="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
       />
-      <BotaoCustomizado titulo='teste'/>
+      <BotaoCustomizado titulo='teste'/> */}
+        <View>
+            <FormularioInterativo/>
+        </View>
       
     </View>
   );
